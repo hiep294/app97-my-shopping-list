@@ -1,1 +1,2 @@
-# app97-my-shopping-list
+# App demo
+https://app97-my-shopping-list.herokuapp.com/
