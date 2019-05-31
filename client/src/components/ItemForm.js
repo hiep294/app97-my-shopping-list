@@ -29,6 +29,10 @@ class ItemForm extends Component {
       this.props.dispatch(updateItemInClient(tempItem, resItem))
     })
 
+    this.setState({
+      title: ''
+    })
+
   }
 
   render() {

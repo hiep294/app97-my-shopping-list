@@ -44,7 +44,7 @@ class App extends React.Component {
             <div>
               <Filters />
             </div>
-            <a className="nav-link" href="https://github.com/hiep294/app98-my-todo-list">Github</a>
+            <a className="nav-link" href="https://github.com/hiep294/app97-my-shopping-list">Github</a>
           </div>
           <hr />
           <div className="row">

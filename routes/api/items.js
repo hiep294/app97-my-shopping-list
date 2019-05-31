@@ -21,7 +21,7 @@ route.post('/', (req, res) => {
 // delete item
 route.delete('/:id', (req, res) => {
   let item = Item.findById(req.params.id)
-  item.remove()
+  item.deleteOne()
     .then(sth => res.send({ success: true }))
     .catch(error => res.status(404).send({ success: false }))
 })

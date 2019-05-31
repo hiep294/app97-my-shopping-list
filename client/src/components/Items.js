@@ -53,7 +53,7 @@ class Items extends Component {
     return (
       <>
         {items.map(item => (
-          <Item key={item._id} item={item}
+          <Item key={item._id || item.tempId} item={item}
             onToggle={this.onToggle}
             onUpdateItemTitle={this.onUpdateItemTitle}
             onDeleteItem={this.onDeleteItem}
